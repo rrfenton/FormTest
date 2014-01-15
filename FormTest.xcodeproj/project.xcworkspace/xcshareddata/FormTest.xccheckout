@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A1FB3775-4650-4CF4-AE98-FD2843CAF085</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FormTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4710D935-11ED-4DD3-BEA8-984F675E74C2</key>
+		<string>ssh://github.com/rrfenton/FormTest.git</string>
+		<key>A3F26845-8DA0-467E-A942-CBE97A857A4E</key>
+		<string>ssh://github.com/escoz/QuickDialog.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FormTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4710D935-11ED-4DD3-BEA8-984F675E74C2</key>
+		<string>../..</string>
+		<key>A3F26845-8DA0-467E-A942-CBE97A857A4E</key>
+		<string>../../QuickDialog</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/rrfenton/FormTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4710D935-11ED-4DD3-BEA8-984F675E74C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4710D935-11ED-4DD3-BEA8-984F675E74C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FormTest</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A3F26845-8DA0-467E-A942-CBE97A857A4E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QuickDialog</string>
+		</dict>
+	</array>
+</dict>
+</plist>

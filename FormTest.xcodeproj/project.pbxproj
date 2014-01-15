@@ -27,6 +27,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0E417C3C18872B140036CA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E417C3718872B140036CA8E /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D80B0E3313E052DF00FA85CA;
+			remoteInfo = QuickDialogExample;
+		};
+		0E417C3E18872B140036CA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E417C3718872B140036CA8E /* QuickDialog.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2C542393145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
+		0E417C4018872B490036CA8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E417C3718872B140036CA8E /* QuickDialog.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C542392145ADEBD0026A152;
+			remoteInfo = QuickDialog;
+		};
 		0EA2CA57188726740059E8F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0EA2CA20188726730059E8F4 /* Project object */;
@@ -37,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E417C3718872B140036CA8E /* QuickDialog.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QuickDialog.xcodeproj; path = QuickDialog/QuickDialog.xcodeproj; sourceTree = "<group>"; };
 		0EA2CA28188726730059E8F4 /* FormTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EA2CA2B188726730059E8F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EA2CA2D188726730059E8F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E417C3818872B140036CA8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E417C3D18872B140036CA8E /* QuickDialogExample.app */,
+				0E417C3F18872B140036CA8E /* libQuickDialog.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		0EA2CA1F188726730059E8F4 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +140,7 @@
 		0EA2CA2A188726730059E8F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0E417C3718872B140036CA8E /* QuickDialog.xcodeproj */,
 				0EA2CA2B188726730059E8F4 /* Foundation.framework */,
 				0EA2CA2D188726730059E8F4 /* CoreGraphics.framework */,
 				0EA2CA2F188726730059E8F4 /* UIKit.framework */,
@@ -179,6 +211,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0E417C4118872B490036CA8E /* PBXTargetDependency */,
 			);
 			name = FormTest;
 			productName = FormTest;
@@ -228,6 +261,12 @@
 			mainGroup = 0EA2CA1F188726730059E8F4;
 			productRefGroup = 0EA2CA29188726730059E8F4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0E417C3818872B140036CA8E /* Products */;
+					ProjectRef = 0E417C3718872B140036CA8E /* QuickDialog.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0EA2CA27188726730059E8F4 /* FormTest */,
@@ -235,6 +274,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0E417C3D18872B140036CA8E /* QuickDialogExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = QuickDialogExample.app;
+			remoteRef = 0E417C3C18872B140036CA8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0E417C3F18872B140036CA8E /* libQuickDialog.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libQuickDialog.a;
+			remoteRef = 0E417C3E18872B140036CA8E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0EA2CA26188726730059E8F4 /* Resources */ = {
@@ -282,6 +338,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0E417C4118872B490036CA8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuickDialog;
+			targetProxy = 0E417C4018872B490036CA8E /* PBXContainerItemProxy */;
+		};
 		0EA2CA58188726740059E8F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0EA2CA27188726730059E8F4 /* FormTest */;
@@ -328,7 +389,7 @@
 		0EA2CA61188726740059E8F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -362,13 +423,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/QuickDialog\"/**";
 			};
 			name = Debug;
 		};
 		0EA2CA62188726740059E8F4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -395,6 +457,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/QuickDialog\"/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -486,6 +549,7 @@
 				0EA2CA65188726740059E8F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0EA2CA66188726740059E8F4 /* Build configuration list for PBXNativeTarget "FormTestTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +558,7 @@
 				0EA2CA68188726740059E8F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
